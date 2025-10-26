@@ -18,4 +18,27 @@ remaining_sweets = total_sweets % num_friends       # Modulo operation
 
 print(f"Each friend gets {max_per_friend} sweet(s).")
 print(f"Sweets remaining: {remaining_sweets}")
-print ("bache hue sbhi mil baat kr khao ")
+print ("bache hue sbhi mil baat kr khao ") 
+
+
+3}    # Input: list of item prices
+item_prices = input("Enter item prices separated by spaces: ")
+prices = [float(x) for x in item_prices.split()]
+
+# Calculate total price
+total = sum(prices)
+
+# Apply 10% discount if total exceeds ₹500
+if total > 500:
+    final_price = total * 0.9  # 10% discount
+    print(f"Discount applied! Final price: ₹{final_price:.2f}")
+else:
+    final_price = total
+    print(f"No discount. Final price: ₹{final_price:.2f}")
+    print("paisa hatho ka mael hai ise jaane do ,happy diwali") 
+
+
+
+
+
+    the all three codes are end now happy diwali 
